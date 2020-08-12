@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap');
+@font-face {
+    font-family: 'SF-Bold';
+    src: url('fonts/SF-UI-Display-Bold.woff');
+}
+@font-face {
+    font-family: 'SF-Regular';
+    src: url('fonts/SF-UI-Display-Regular.woff');
+}
+@font-face {
+    font-family: 'SF-Ultralight';
+    src: url('fonts/SF-UI-Display-Ultralight.woff');
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: SF-Regular;
+}
+a:hover{text-decoration: underline !important;}
+a{text-decoration: none;}
+li{list-style: none;}
+/* background of ids of main*/
+.background{
+    background-repeat: no-repeat;
+    background-position: bottom;
+    align-content: center;
+    text-align: center;
+}
+
+/* menu principal */
+.iconosnav{width: 20px;}
+.manzana{width: 15px;}
+nav{
+    background-color: rgba(0,0,0,0.8);
+    text-align: center;
+    width: 100%;
+    position: fixed;
+}
+nav li{
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: SF-Ultralight;
+}
+nav li a{color: darkgrey;}
+nav li a:hover{
+    color: white;
+    text-decoration: none !important;
+}
+
+/* iphone 11 pro */
+#iphone11pro{
+    height: 725px;
+    background-color: #000000;
+    background-image: url("img/iphone11pro.png");
+    color: white;
+}
+.titulos{
+    font-family: SF-Regular;
+    color: white;
+    font-size: 60px;
+    padding-top: 90px;
+}
+.subtitulo{
+    font-size: 30px;
+    font-family: SF-Regular;
+}
+.subsubtitulo{
+    padding-top: 10px;
+    color: #86868B;
+    font-size: 20px;
+}
+.enlacederecho{
+    text-decoration: none;
+    padding-top: 20px;
+    padding-right: 20px;
+    display: inline-block;
+    font-size: 18px;
+}
+.enlacederecho a{color: #0066CC;}
+.enlaceizquierdo{
+    display: inline-block;
+    padding-top: 20px;
+    font-size: 18px;
+}
+.enlaceizquierdo a{color: #0066CC;}
+
+/* iphone 11 */
+#iphone11{
+    height: 725px;
+    background-color: #FAFAFA;
+    background-image: url("img/iphone11.png");
+    color: white;
+}
+#iphone11  .titulos, #iphone11  .subtitulo{color: black !important;}
+#iphone11  .subsubtitulo{color: #848489 !important;}
+
+/* whatch 5 */
+#watch5{
+    height: 725px;
+    background-color: #FAFAFA;
+    background-image: url("img/watch.png");
+}
+#watch5 .titulos{
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+}
+#watch5 .titulos img{height: 45px;}
+#watch5  .subsubtitulo {
+    padding-top: 0px;
+    color: #D32530 !important;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+#watch5 .subtitulo{
+    font-size: 20px !important;
+    font-weight: normal !important;
+    font-family: SF-Regular !important;
+    padding-top: 10px !important;
+    color: black !important;
+}
+
+/* appple watch studio */
+#applewatchstudio{
+    height: 575px;
+    width: 48.7%;
+    margin: 10px;
+    background-color: #FAFAFA;
+    background-image: url("img/apple-watch-studio.png");
+    color: black;
+    display: inline-block;
+    margin-right: 0px;
+}
+#applewatchstudio  .titulos, #watch5  .subtitulo{
+    color: black !important;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 50px;
+}
+#applewatchstudio  .subtitulo {
+    font-size: 20px;
+    color: black;
+}
+
+/* tv */
+#tv{
+    height: 575px;
+    width: 48.7%;
+    margin: 10px;
+    background-color: #FAFAFA;
+    background-image: url("img/tv.png");
+    float: right;
+    margin-left: 0px;
+}
+#tv  .titulos{
+    color: white !important;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 50px;
+}
+#tv .titulos img{width: 25px;}
+#tv .subtitulo {
+    padding-top: 300px;
+    font-family: 'Alegreya', serif;
+    font-size: 60px;
+    color: white;
+}
+#tv  .subsubtitulo{
+    padding-top: 0;
+    font-size: 17px;
+}
+#tv .subsubtitulo a{color: white}
+#tv  .subsubtitulo img{width: 15px;}
+
+/* airpods */
+#airpods{
+    height: 575px;
+    width: 48.7%;
+    margin: 10px;
+    background-color: #FAFAFA;
+    background-image: url("img/airpods.png");
+    display: inline-block;
+    margin-left: 10px;
+}
+#airpods .titulos{
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+#airpods .subtitulo{font-size: 20px !important;}
+
+/* macbookpro */
+#macbookpro{
+    height: 575px;
+    width: 48.7%;
+    margin: 10px;
+    background-color: #FAFAFA;
+    background-image: url("img/macbookpro.png");
+    margin-left: 0px;
+    float: right;
+}
+#macbookpro .pretitulo{
+    padding-top: 20px;
+}
+#macbookpro .titulos{
+    padding-top: 0px;
+    font-weight: bold;
+    color: black;
+    font-size: 40px;
+}
+#macbookpro .subtitulo{font-size: 20px;}
+
+/* arcade*/
+#arcade{
+    height: 575px;
+    width: 48.7%;
+    margin: 10px;
+    background-color: #0E0943;
+    background-image: url("img/arcade.png");
+    display: inline-block;
+    margin-left: 10px;
+}
+#arcade .titulos img{width: 25px;}
+
+#arcade .titulos{
+    padding-top: 40px;
+    font-size: 40px;
+}
+#arcade .subtitulo{
+    font-size: 20px;
+    color: white;
+}
+#arcade .enlacederecho a, #arcade .enlaceizquierdo a{color: white !important;}
+
+/* ipad */
+#ipad{
+    height: 575px;
+    width: 48.7%;
+    margin: 10px;
+    background-color: #FAFAFA;
+    background-image: url("img/ipad.png");
+    margin-left: 0px;
+    float: right;
+}
+#ipad .pretitulo{
+    padding-top: 20px;
+    font-family: 'Zhi Mang Xing', cursive;
+    font-size: 25px;
+}
+#ipad .titulos{
+    padding-top: 0px;
+    font-weight: bold;
+    color: black;
+    font-size: 40px;
+}
+#ipad .subtitulo{font-size: 20px ;}
+
+/* footer */
+footer{background-color: #F5F5F7;}
+#contenedorfooter{
+    padding-top: 20px;
+    width: 70%;
+    margin: 0 auto;
+    color: #9E9EA2;
+    font-size: 12px;
+}
+#contenedorfooter p{
+    padding-top: 10px;
+    line-height : 20px;
+}
+#contenedorfooter p a{color: #58585B;}
+#contenedorfooter hr{color: rgba(155,155,155,0.15);}
+.columnafooter{
+    display: inline-block;
+    width: 19.75%;
+    padding-top: 0px;
+    vertical-align: top;
+    color: black;
+    font-weight: bold;
+    font-family: SF-Ultralight;
+}
+.columnafooter li{
+    padding-top: 10px;
+    color: dimgrey;
+    font-weight: normal;
+}
+.columnafooter li a{color: #ABABAE;}
+.columnafooter ul{padding-bottom: 20px;}
+.columnafooter a{color: #0066CC;}
+.columnafooter hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.gionfooter{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.enlacesfooterfin{color: #5E5E60;}
+#copyright{display: inline-block;}
+#bandera{float: right;}
+#bandera a{color: #86868B}
+footer hr{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.enlacesfootercopyright{color: #0066CC;}
+
+/* form */
+#colocacionformulario{
+    padding: 70px;
+    background-color: #d8d8d8;
+    display: inline-block;
+    width: 40%;
+}
+form{padding-top: 20px;}
+form input[type="text"], form input[type="email"]{
+    width:100%;
+    padding:3px 10px;
+    border:1px solid #f6f6f6;
+    border-radius:3px;
+    background-color:#f6f6f6;
+    margin:8px 0;
+    display:inline-block;
+}
+form input[type="submit"]{
+    width:100%;
+    padding:8px 16px;
+    margin-top:32px;
+    border:1px solid #000;
+    border-radius:5px;
+    display:block;
+    color:#fff;
+    background-color:#000;
+}
+form input[type="submit"]:hover{
+    cursor:pointer;
+}
+textarea{
+    width:100%;
+    height:100px;
+    border:1px solid #f6f6f6;
+    border-radius:3px;
+    background-color:#f6f6f6;
+    margin:8px 0;
+    resize:none;
+    display:block;
+}
+#mail{
+    width: 45%;
+    display: inline-block;
+    text-align: center;
+    background-image: url("img/mail.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 575px;
+    background-position: center;
+    margin-top: 100px;
+}
